@@ -1,0 +1,53 @@
+%margin {
+    margin-left: 25px;
+    margin-right: 25px
+}
+
+$colors: (
+    primary: gray,
+    secondary: lightgray,
+);
+
+@media (max-width: 900px) {
+    .sml {
+        display: none;
+    }
+}
+
+.margin {
+    @extend %margin;
+}
+
+div {
+    p {
+        @extend %margin;
+        text-align: justify;
+    }
+}
+
+.table-img {
+    width: 100%;
+}
+
+h1, .center {
+    text-align: center;
+}
+
+thead {
+    tr {
+        background-color: map-get($colors , primary);
+    }
+    
+}
+
+tr {
+    background-color: map-get($colors , secondary);
+
+    th {
+        text-align: center;
+    }
+}
+
+tbody {
+    text-align: justify;
+}
