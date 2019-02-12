@@ -1,6 +1,6 @@
 %margin {
     margin-left: 25px;
-    margin-right: 25px
+    margin-right: 25px;
 }
 
 $colors: (
@@ -12,6 +12,10 @@ $colors: (
     .sml {
         display: none;
     }
+}
+
+#foryou {
+    color: darkgray;
 }
 
 .margin {

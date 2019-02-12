@@ -9,6 +9,10 @@
   }
 }
 
+#foryou {
+  color: darkgray;
+}
+
 div p {
   text-align: justify;
 }
