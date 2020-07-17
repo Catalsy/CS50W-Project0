@@ -1,6 +1,5 @@
 # Project 0
 
-Web Programming with Python and JavaScript
 
 My project has 4 different HTML pages wich share some aspects:
 All four files...
